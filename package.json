@@ -13,6 +13,19 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
-    "puppeteer": "^20.7.1"
-  }
+    "puppeteer": "^20.7.2"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HwangJeongyong/puppeteer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HwangJeongyong/puppeteer/issues"
+  },
+  "homepage": "https://github.com/HwangJeongyong/puppeteer#readme",
+  "description": ""
 }
