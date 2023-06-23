@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
 // scraper API 구현 부분
 router.post('/scraper', async function(req, res) {
   var result = await crawlingSvc.scraperData(req);
-  console.log(JSON.stringify(result));
+  // console.log(JSON.stringify(result));
   res.send(result);
 });
 
