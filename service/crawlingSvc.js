@@ -23,6 +23,7 @@ const scraperData = async function(req) {
         }
     }
 
+    
     const results = await withBrowser(async (browser) => {
         return bluebird.map(urls, async (url, idx) => {
             return withPage(browser)(async (page) => {
