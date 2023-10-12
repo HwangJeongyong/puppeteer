@@ -1,7 +1,1 @@
-npm init -y
-npm i express -save
-npm install express-generator -g
-npm i puppeteer
-npm i bluebird
-express --view=ejs
-Set-ExecutionPolicy RemoteSigned > Y
+웹 크롤링 node 라이브러리 puppeteer를 이용한 네이버 리뷰 이미지 긁어오는 api
